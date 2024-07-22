@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>EarlyLearn Hub</title>
+        <link rel="stylesheet" href="styles/headerfooter.css">
+        <link rel="stylesheet" href="styles/contact.css">
+        <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico">
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <h1> Connect With Us </h1>
+                <p> We would love to repond to your queries and help you succeed. Feel free to get in touch with us.</p>
+                <div class = "contact-box">
+                    <div class="contact-left">
+                        <h3> Sent your request </h3>
+                        <form method="post" id="contact-form" action="contact-backend.php" onsubmit="checkContactInputs(event)">
+                            <div class="input-group">
+                                <label>Name </label>
+                                <input type ="text" placeholder="Chan Hoe Wai" id="name" name="name">
+                                <small></small>
+                            </div>
+                            <div class="input-group">
+                                <label>Phone </label>
+                                <input type ="text" placeholder="0123456789" id="phone" name="phone">
+                                <small></small>
+                            </div>
+                            <div class="input-group">
+                                <label>Email </label>
+                                <input type ="email" placeholder="abc21@gmail.com" id="email" name="email">
+                                <small></small>
+                            </div>
+                            <div class="input-group">
+                                <label>Subject </label>
+                                <input type ="text" placeholder="Product Demo" id="subject" name="subject">
+                                <small></small>
+                            </div>
+
+                            <div class="input-group">
+                                <label> Message </label>
+                                <textarea rows="5" placeholder="Your Message" id="message" name="message"></textarea>
+                                <small></small>
+                            </div>
+                            
+                            <input type="submit" class="submitBtn" name="submit" value="SEND">
+                        </form>
+    
+                    </div>
+                    <div class="contact-right">
+                        <h3> Reach Us </h3>
+                        <table>
+                            <tr>
+                                <td>Email</td>
+                                <td>hoewaichan21@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>Phone</td>
+                                <td>0103755233</td>
+                            </tr>
+                            <tr>
+                                <td>Address</td>
+                                <td>UTeM, Jalan Hang Tuah Jaya, 75450 Durian Tunggal, Melaka<br></td>
+                            </tr>
+                        </table>
+    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script type="text/javascript" src="scripts/script.js"></script>
+    </body>
+</html>

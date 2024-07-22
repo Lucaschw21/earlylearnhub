@@ -1,0 +1,135 @@
+.elementsContainer {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.search {
+    border: 2px solid rgb(30, 38, 53) ;
+    margin:auto;
+    position: relative;
+    height: 42px;
+    width: 400px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #424242;
+    font-weight: 500;
+    outline: none;
+    margin-left: 37%;
+    margin-top: 1.5%;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.material-icons {
+    font-size: 26px;
+    color: #2980b9;
+}
+
+.communityForums {
+    font-size: 24px;
+    margin-top: 50px;
+    text-align: center;
+    color: #333;
+}
+
+.container-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.box {
+    width: 430px;
+    height: 200px;
+    background-color: #4E4FEB;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titlebox.release-notes {
+    width: 100%;
+    height: 70px;
+    background-color: #CBCEFF;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.titlebox.ideas {
+    width: 100%;
+    height: 70px;
+    background-color: #CBCEFF;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.titlebox.community {
+    width: 100%;
+    height: 70px;
+    background-color: #CBCEFF;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+}
+
+
+.box-title {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.box-content {
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 20px;
+}
+
+.new-topic-button {
+    display: inline-block;
+    margin: 40px 0;
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.new-topic-container {
+    display: flex;
+    align-items: flex-start;
+    margin-top: -5px;
+    margin-left: 1235px;
+}
+
+.new-topic-button:hover {
+    background-color: #218c53;
+}

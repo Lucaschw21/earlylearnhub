@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: appleFont;
+}
+
+@font-face{
+    font-family: appleFont;
+    src:url(../fonts/SF-Pro.ttf);
+}
+
+.logo a{
+    text-decoration: none;
+    color: #3b0d9c;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    background-color: #cdb5ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:99
+}
+
+footer{
+    /* position:fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 100px;
+    background-color: #cdb5ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:99
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color:#f0f1ff;
+}
+
+section{
+    flex-grow: 1;
+}
+
+.header-navigation a, .footer-navigation a, .header-navigation-after a, .login-btns button{
+    margin-right: 50px;
+}
+
+.btnSignup{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 15px 30px;
+    border-radius: 6px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.login-btns .btnLogin{
+    background-color: #d6d6d6;
+    color: black;
+    font-weight:bold;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 15px 30px;
+    border-radius: 6px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.header-navigation a, .header-navigation-after a{
+    font-weight: bold;
+}
+
+.header-navigation a:hover, .header-navigation-after a:hover{
+    font-weight:800;
+}
+
+footer p, .footer-navigation a{
+    color: #162938;
+}
+
+header{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+footer{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.btnSignup:hover{
+    background-color: rgb(231, 150, 0);
+}
+
+.btnLogin:hover{
+    background-color: #b9b9b9;
+}

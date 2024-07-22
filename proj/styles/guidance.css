@@ -1,0 +1,140 @@
+.contentSection .col1 {
+    float: left;
+    margin-right:2%;
+    width: 48%;
+    margin-top: 1%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fbfbfb;
+}
+
+.col1 {
+    flex: 1;
+    max-width: 600px;
+    margin-left: 4%;
+}
+
+.col2 {
+    flex: 1;
+    max-width: 400px;
+    margin-top: 0.5%;
+}
+
+.col2 img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.col1 h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.col1 p{
+    line-height: 1.6;
+    color: black;
+    font-size: 1.7em;
+}
+
+.contentSectionHow {
+    background: #cbceff;
+    border-top: 1px solid #eee;
+    padding: 48px 20px 36px;
+    text-align: center;
+}
+
+.contentSectionHow h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contentSectionHow h1.text-center {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    margin-left: 41.5%;
+    margin-top: 3%;
+}
+
+.cols {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 32px 0;
+    margin-top: 0%;
+}
+
+.col {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #e5bafff7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.num {
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contentSectionFAQ {
+    background: #cbceff;
+    padding: 48px 20px 36px;
+    text-align: center;
+}
+
+.contentSectionFAQ h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.faq-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.faq-item {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.faq-item h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.faq-item p {
+    line-height: 1.6;
+    color: #555;
+}
+
+.contentSectionFAQ h1.text-center{
+    margin-left: 1%;  
+    margin-top: 2%;             
+}

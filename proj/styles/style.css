@@ -1,0 +1,149 @@
+/* body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f1ff;
+}
+
+section {
+    flex-grow: 1;
+} */
+
+.big-container{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1{
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.container{
+    padding: 20px;
+    overflow: hidden;
+    background-color: #fe4a49;
+}
+
+.container h1{
+    float: left;
+    margin-left : 5%;
+    color: white;
+}
+
+.container ul{
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: 55%
+}
+
+.container li{
+    margin-top: 10px;
+    float: left;
+    padding: 0 5px 0 5px;
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
+}
+
+.current a::after{
+    content: '_';
+    background-color: white;
+    font-size: 4px;
+    display: block;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 82% 18%;
+    min-height:74vh;
+}
+
+.equation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 65px;
+    background-color: white;
+    border-radius: 3px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.equation h1{
+    display: inline;
+    padding: 20px;
+}
+
+.answer-option{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 67px;
+    margin-right: 10px;
+}
+
+.answer-option h1{
+    cursor: pointer;
+    color: whitesmoke;
+    border-radius: 3px;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+#option1{
+    background-color: greenyellow;
+    transition: 1s;
+}
+
+#option1:hover{
+    color: greenyellow;
+    background-color: white;
+}
+
+#option2{
+    background-color: #2ab7ca;
+    transition: 1s;
+}
+
+#option2:hover{
+    color: #2ab7ca;
+    background-color: white;
+}
+
+#option3{
+    background-color: #fed766;
+    transition: 1s;
+}
+
+#option3:hover{
+    color: #fed766;
+    background-color: white;
+}
+
+.footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 100px;
+    background-color: #cdb5ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:99;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.footer-navigation a{
+    margin-right: 50px;
+}
+
+.footer p, .footer-navigation a{
+    color: #162938;
+}

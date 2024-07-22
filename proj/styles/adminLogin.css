@@ -1,0 +1,137 @@
+#main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+article h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+table{
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-bottom: 100px;
+}
+
+table tr th{
+    background-color: #009879;
+    color:white;
+    border-right: 1px solid #dddddd;
+}
+
+table th, table td{
+    padding:12px 15px;
+}
+
+table tr td a{
+    text-decoration: none;
+    color:black;
+}
+
+table tr td a:hover{
+    color: red;
+}
+
+table tr td{
+    border-bottom: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+}
+
+table tr:nth-of-type(odd){
+    background-color:white;
+}
+
+table tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+table tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+
+.search-bar form {
+    text-align: center;
+}
+
+.search-bar form input {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 0%;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.search-bar form button[type="submit"] {
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.search-bar form button[type="submit"]:hover {
+    background: #007BFF;
+}
+
+.features{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons .pdfBtn{
+    background: #ff6232;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.buttons .pdfBtn:hover{
+    background: #fff;
+    color: #ff6232;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.buttons .addUser{
+    background: #009879;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.buttons .addUser:hover{
+    background: #fff;
+    color: #009879;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
